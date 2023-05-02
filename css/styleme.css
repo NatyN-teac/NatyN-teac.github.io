@@ -64,3 +64,7 @@ a::after {
 .float-child-happy > p {
     display: inline;
 }
+footer a::before,
+footer a::after {
+    content: "";
+}
