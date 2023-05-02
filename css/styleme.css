@@ -1,0 +1,66 @@
+html {
+    margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --mainColor: #fff;
+}
+body {
+    background-color: rgb(54, 54, 54);
+    color: #fff;
+}
+h1, h2, h3, h4 {
+    color: dodgerblue;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+p::first-letter {
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+dt{
+color: orange;
+}
+header > p > span {
+    color: orange;
+}
+
+.float-container {
+    display: flex;
+    flex-direction: row;
+}
+.my-movie-remark {
+    font-style: italic;
+    font-size: 14px;
+}
+a {
+    color: firebrick;
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: underline;
+}
+a::before {
+    content: "(";
+    color: var(--mainColor);
+}
+a::after {
+    content: ")";
+    color: var(--mainColor);
+}
+
+.float-child{
+    flex: 1 ;
+    
+}
+.float-child-motivated > p {
+    display: inline;
+}
+.float-child-happy > p {
+    display: inline;
+}
