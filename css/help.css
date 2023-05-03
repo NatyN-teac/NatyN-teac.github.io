@@ -1,0 +1,268 @@
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+
+    background-color: rgb(243, 243, 243);
+}
+
+/* Navbar css style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #fff;
+}
+.navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .separator {
+    padding: 0 10px;
+}
+
+.logo h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.nav-link {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-link li {
+    margin: 0 15px;
+    list-style-type: none;
+
+}
+
+.nav-link li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+
+/* Banner section css */
+.banner {
+    height: 20vh;
+    background-color: rgb(55, 67, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+/* Main content */
+.main-content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.form-section .header h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.form-section .header h4 {
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(181, 181, 181);
+}
+
+.form-section .logo-button {
+    border: 1px solid rgb(204, 204, 204);
+    height: 45px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.login-separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    color: rgb(181, 181, 181);
+    width: 350px;
+}
+
+.logo-button img {
+    width: 80px;
+    height: 100%;
+}
+
+.vertical-row {
+    Float: left;
+    height: 80vh;
+    width: 1px;
+    background-color: rgb(224, 224, 224)
+}
+
+
+.field {
+    border-radius: 5px;
+    border: 1px solid rgb(222, 222, 222);
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 10px 15px;
+    width: 320px;
+
+}
+
+.field::placeholder {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
+.field:focus,
+.field:active {
+    outline: none;
+    border: 1px solid rgba(74, 132, 207, 1);
+
+}
+
+.field-checkbox {
+    display: inline;
+}
+
+.field-group {
+    margin: 5px 0px;
+    align-items: start;
+    align-content: start;
+}
+
+.remember-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.check-box-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.field-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.remember-me p {
+    color: rgb(102, 102, 102);
+    ;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-password p {
+    color: rgb(84, 138, 209);
+}
+
+.field-group label {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: 100%;
+
+}
+
+.btn-default {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* side style */
+.sideSection {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.sideSection p {
+    font-size: 14px;
+}
+
+.sideSection a {
+    text-decoration: none;
+    color: rgb(84, 138, 209);
+    ;
+}
+
+.sideSection .create-ticket {
+    width: 35%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
