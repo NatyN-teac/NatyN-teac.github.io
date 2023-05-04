@@ -1,0 +1,54 @@
+.navbar {
+    height: 10vh;
+
+
+}
+
+
+.bg-primary {
+    --bs-primary-rgb: 0, 168, 238;
+}
+
+.navbar a {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+
+
+.navbar .navbar-nav .nav-item:first-child .nav-link {
+    border-left: 1px solid #fff;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 1px solid #fff;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.display-6 {
+    font-size: calc(1.075rem + 1.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: rgb(6 60 122);
+    --bs-btn-border-color: rgb(6 60 122);
+
+    --bs-btn-hover-bg: rgb(6 60 122);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: rgb(65 185 242);
+    --bs-btn-border-color: rgb(65 185 242);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(65 185 242);
+}
